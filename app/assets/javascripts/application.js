@@ -10,7 +10,16 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require rails-ujs
+//= require jquery
+//= require jquery-2.2.3.min
+//= require jquery_ujs
+//= require popper
+//= require jquery-ui
+//= require slide-from-top
+//= require jquery.flexisel
+//= require classie
+//= require smoothbox.jquery2
+//= require waypoints.min
 //= require activestorage
 //= require turbolinks
 //= require_tree .
