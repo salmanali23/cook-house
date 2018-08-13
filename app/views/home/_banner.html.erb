@@ -1,0 +1,87 @@
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="agileits_banner_left">
+				<h2>we offer you the best meal</h2>
+				<div class="w3ls_more">
+					<a href="contact.html" class="btn btn-3 btn-3e icon-arrow-right">Mail Us</a>
+				</div>
+			</div>
+			<div class="agileits_banner_right">
+				<%= image_tag '2.png', alt: '', class: 'img-responsive'%>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<h3>Menu</h3>
+		</div>
+		<ul id="flexiselDemo1">
+			<li>
+				<div class="w3layouts_banner_bottom_left">
+					<%= image_tag '1.jpg', alt: '', class: 'img-responsive'%>
+					<h4>Dessert --- <span>$5</span></h4>
+					<p>Morbi eu justo suscipit.</p>
+				</div>
+			</li>
+			<li>
+				<div class="w3layouts_banner_bottom_left">
+					<%= image_tag '2.jpg', alt: '', class: 'img-responsive'%>
+					<h4>Burger Cheese --- <span>$6</span></h4>
+					<p>Morbi eu justo suscipit.</p>
+				</div>
+			</li>
+			<li>
+				<div class="w3layouts_banner_bottom_left">
+					<%= image_tag '3.jpg', alt: '', class: 'img-responsive'%>
+					<h4>Pasta --- <span>$3</span></h4>
+					<p>Morbi eu justo suscipit.</p>
+				</div>
+			</li>
+			<li>
+				<div class="w3layouts_banner_bottom_left">
+					<%= image_tag '4.jpg', alt: '', class: 'img-responsive'%>
+					<h4>Western Cuisine --- <span>$8</span></h4>
+					<p>Morbi eu justo suscipit.</p>
+				</div>
+			</li>
+			<li>
+				<div class="w3layouts_banner_bottom_left">
+					<%= image_tag '5.jpg', alt: '', class: 'img-responsive'%>
+					<h4>Asian Cuisine --- <span>$3</span></h4>
+					<p>Morbi eu justo suscipit.</p>
+				</div>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$("#flexiselDemo1").flexisel({
+					visibleItems: 4,
+					animationSpeed: 1000,
+					autoPlay: true,
+					autoPlaySpeed: 3000,
+					pauseOnHover: true,
+					enableResponsiveBreakpoints: true,
+					responsiveBreakpoints: {
+						portrait: {
+							changePoint:480,
+							visibleItems: 2
+						},
+						landscape: {
+							changePoint:640,
+							visibleItems:3
+						},
+						tablet: {
+							changePoint:768,
+							visibleItems: 4
+						}
+					}
+				});
+
+			});
+		</script>
+	</div>
+<!-- //banner-bottom -->
